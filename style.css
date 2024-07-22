@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #1f1f1f;
+    padding: 20px 0;
+    border-bottom: 2px solid #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+header h1 span {
+    color: #8a2be2;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+header nav ul li a:hover {
+    color: #8a2be2;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section#home {
+    text-align: center;
+    padding: 60px 0;
+}
+
+section#about, section#contact, section#documentation {
+    background: #1f1f1f;
+    border: 1px solid #3a3a3a;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+section#documentation .post {
+    margin-bottom: 20px;
+}
+
+section#documentation .post h3 {
+    margin-top: 0;
+    color: #8a2be2;
+}
+
+section#documentation .post pre {
+    background: #2a2a2a;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.typing-svg {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #1f1f1f;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #3a3a3a;
+}
