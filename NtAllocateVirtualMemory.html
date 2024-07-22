@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NtAllocateVirtualMemory - Native API Documentation</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900,400" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="../index.html">Native API <span>Documentation</span></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../documentation.html">Documentation</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="documentation">
+        <div class="container">
+            <h2>NtAllocateVirtualMemory</h2>
+            <p>This function reserves, commits, or changes the state of a region of pages within the virtual address space of a specified process.</p>
+            <pre><code>
+NTSTATUS NtAllocateVirtualMemory(
+    HANDLE ProcessHandle,
+    PVOID *BaseAddress,
+    ULONG ZeroBits,
+    PULONG RegionSize,
+    ULONG AllocationType,
+    ULONG Protect
+);
+            </code></pre>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 the bit head</p>
+        </div>
+    </footer>
+</body>
+</html>
